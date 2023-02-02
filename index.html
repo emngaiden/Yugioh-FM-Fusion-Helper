@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Yugioh - Forbidden Memories Fusion Helper</title>
+  <script type="module" src="/main.js" ></script>
+  <link href="/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>
+      YGO: FM - Fusion helper
+    </h1>
+    <h2>
+      Search card to fuse
+    </h2>
+    <div class="dropdown">
+      <input type="text" id="dropdown-input" class="dropdown-input" placeholder="Card name or number..."></input><button id="clear-all">X</button>
+      <div id="dropdown" class="dropdown-content">
+      </div>
+    </div>
+    <div>
+      <table id="table" class="cards-table">
+        <thead>
+          <tr>
+            <th>Card 1</th><th>Card 2</th><th>Result</th><th>Attack</th><th>Defense</th><th>Type</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+      </table>
+      <div id="nothing">
+        No fusions found...
+      </div>
+    </div>
+  </body>
+</html>
